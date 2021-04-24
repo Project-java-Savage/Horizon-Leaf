@@ -296,13 +296,45 @@ h2 {
 
 .main {
   background: #f8f8f8;
-  padding: 4.5em 0px;
+  padding: 180px 0px;
 }
 
 .clear {
   clear: both;
 }
+@media screen and (max-width: 2959px) {
+  .main {
+    padding: 250px 0px;
+  }
+}
+@media screen and (max-width: 2560px) {
+  .main {
+    padding: 380px 0px;
+  }
+}
 
+@media screen and (max-width: 2460px) {
+  .main {
+    padding: 280px 0px;
+  }
+}
+
+@media screen and (max-width: 2290px) {
+  .main {
+    padding: 71px 0px;
+  }
+}
+@media screen and (max-width: 1190px) {
+  .main,
+  .signin-content {
+    padding: 0px auto;
+  }
+}
+@media screen and (max-width: 980px) {
+  .main {
+    padding: 20px 0px;
+  }
+}
 body {
   font-size: 13px;
   line-height: 1.8;
